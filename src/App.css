@@ -1,0 +1,402 @@
+/* Basic formatting */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 50%;
+}
+
+#screen {
+    max-width: 1280px;
+}
+
+/* Header bar formatting */
+#top-nav-bar {
+    background-color: rgb(92, 54, 77); 
+    width: 100%;
+}
+
+#top-nav-bar.dark-grey {
+    background-color: rgb(87, 87, 88); 
+    width: 100%;
+}
+
+#top-nav-bar h1{
+    position: absolute;
+    color:#ffe4f5;
+    text-align: left;
+    padding-left: 30px;
+    padding-top:30px;
+    padding-bottom: 100px;
+    font-size: 21px;
+    top: 0;
+}
+
+#home-button{
+    background-color:rgb(32, 75, 32);
+}
+
+/* Formatting for links in hamburger menu */
+li {
+  list-style-type: none;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 243, 255);
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(4, 83, 4);
+    border-collapse: collapse;
+    background-color: rgb(35, 83, 35);
+    margin: 10px;
+}
+
+/* Irrelevant formatting? */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Page title formatting */
+h2 { 
+    color:rgb(6, 58, 6);
+    font-size: 45px;
+}
+
+/* General text formatting */
+p {
+    color:rgb(0, 32, 0);
+    padding-bottom: 5px;
+}
+
+/* Calorie Summaries boxes' formatting */
+#summary_num {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(18, 49, 15);
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid;
+    border-color: rgb(83, 4, 83);
+    border-collapse: separate;
+    background-color: rgb(185, 161, 185);
+}
+
+#summary_num th {
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(31, 88, 25);
+    -webkit-text-stroke: 1px rgb(74, 151, 87);
+}
+
+#summary_num thead th td {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+#summary_num tr td {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(31, 88, 25);
+    -webkit-text-stroke: 1px rgb(74, 151, 87);
+}
+
+/* Search results formatting */
+#search-table {
+    justify-self: center;
+}
+
+#search-table tr {
+    font-size: 20px;
+    margin: 0;
+}
+
+#match-options li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 5px;
+    display: flex;
+}
+
+#match-options button {
+  margin: 0;
+  margin-left: 3px;
+}
+
+/* Formatting for Add/Next buttons */
+#path-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 243, 255);
+    background-color: rgb(53, 131, 53);
+    margin-top: 20px;
+    border-color:rgb(0, 34, 0);
+    border-style: solid;
+}
+
+/* Confirmation page form formatting*/
+#confirmation {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* General table formatting */
+#table-list {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(18, 49, 15);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 100%;
+    margin: 10px;
+    margin-top: 50px;
+    border: 2px solid;
+    border-color: rgb(18, 49, 15);
+    border-collapse: collapse;
+}
+
+/* Formatting all dates for tables */
+#table-title {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  background-color:rgb(168, 212, 168);
+}
+
+#table-title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(10, 44, 14);
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Formatting all data in tables */
+#table-entries img{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    vertical-align: middle;
+}
+
+#table-entries {
+    font-size: 20px;
+    border: solid 1px;
+    border-color:rgb(4, 14, 2);
+}
+
+/* Table buttons formatting */
+#table-title button {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: separate; 
+}
+
+#editButton{
+    font-size: 16px;
+}
+
+#addButton{
+    font-size: 16px;
+}
+
+#doneButton{
+    font-size: 16px;
+}
+
+/* General formatting */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 243, 255);
+    margin: 0;
+    padding: 5px;
+}
+
+footer { 
+    background-color: rgb(29, 70, 29);
+    border: solid;
+    border-color:rgb(35, 83, 35);
+    color: rgb(218, 243, 255);
+    padding: 5px;
+    margin: 15px;
+    margin-top: 75px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(218, 243, 255);
+    background-color: rgb(14, 59, 14);
+    margin-top: 20px;
+    border-color:rgb(0, 34, 0);
+    border-style: solid;
+}
+
+/* Form Inputs formatting */
+input, select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(233, 253, 244);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    color: rgb(118, 170, 118);
+}
+
+/* Formatting message on Home Page */
+#home-mess{
+  margin-top: 50px;
+  border: 2px solid;
+  border-color: rgb(255, 255, 255);
+  border-collapse: separate;
+  background-color: rgb(233, 253, 237);
+}
+
+#home-mess p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: rgb(92, 54, 77); 
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #theLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Dark Mode - OG Style Option */
+@media (prefers-color-scheme: og-dark) {
+  body {
+    --image-background: #2b2828; 
+    --color-page-titles: rgb(252, 240, 250); 
+    --color-summary-text: rgb(201, 238, 198); 
+    --color-summary-back: rgb(39, 70, 39);
+    --color-summary-border: rgb(23, 44, 23);
+    --color-buttons: rgb(39, 70, 39);  
+    --color-buttons-text: rgb(232, 250, 231);
+    --color-table-date: rgb(61, 100, 61); 
+    --color-date: rgb(232, 250, 231); 
+    --color-table-rows: rgb(18, 39, 18); 
+    --color-row-text: rgb(232, 250, 231); 
+    --color-footer: rgb(39, 70, 39);  
+    --color-footer-text: rgb(201, 238, 198);  
+    --color-home-info-box: rgb(92, 54, 77); 
+    --color-home-info-border: rgb(54, 31, 45);
+    --color-home-info-text: #ffe4f5; 
+  }
+}
+
+/* Dark Mode - Greyscale Option */                 
+@media (prefers-color-scheme: dark-grey) { 
+  body {
+    --image-background: #2b2828;
+    --color-header: rgb(87, 87, 88);  
+    --color-header-text: rgb(233, 232, 232);  
+    --color-page-titles: rgb(216, 216, 216); 
+    --color-summary-text: rgb(255, 255, 255); 
+    --color-summary-back: rgb(109, 109, 109);
+    --color-summary-border: rgb(37, 37, 37);
+    --color-buttons: rgb(121, 121, 121);  
+    --color-buttons-text: rgb(243, 243, 243);
+    --color-buttons-border: rgb(37, 37, 37);
+    --color-home-button: rgb(63, 63, 63);
+    --color-table-date: rgb(141, 141, 141); 
+    --color-date: rgb(255, 252, 252); 
+    --color-table-rows: rgb(63, 63, 63); 
+    --color-row-text: rgb(228, 227, 227); 
+    --color-table-border: rgb(44, 43, 43);
+    --color-table-buttons: rgb(63, 63, 63);
+    --color-footer: rgb(87, 87, 88);  
+    --color-footer-text: rgb(255, 255, 255);  
+    --color-home-info-box: rgb(87, 87, 88); 
+    --color-home-info-border: rgb(37, 37, 37);
+    --color-home-info-text: rgb(216, 216, 216); 
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
