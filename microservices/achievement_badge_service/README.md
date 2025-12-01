@@ -2,15 +2,15 @@ For a program to use this microservice, they must have a defined schema in a mod
 
 A connected program can utilize all CRUD operations: 
 
-      GET all program data from database (reads data), 
+      GET all badge data from database (reads data), 
       
-      GET one program data by ID from database (reads data), 
+      GET one badge data by ID from database (reads data), 
       
-      POST one program data into database (creates data), 
+      POST one program badge data into database (creates data), 
       
-      PUT on program data by ID from database (edits data), 
+      PUT on program badge data by ID from database (edits data), 
       
-      DELETE one data by ID from database (deletes data).
+      DELETE one badge data by ID from database (deletes data).
       
 
 How to programmatically REQUEST data from the microservice: 
