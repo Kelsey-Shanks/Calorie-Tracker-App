@@ -1,6 +1,8 @@
+# Achievement Badge Microservice README
+
 For a program to use this microservice, they must have a defined schema in a model.mjs for that program and they must have defined CRUD operations in the controller that accesses that model.
 
-A connected program can utilize all CRUD operations: 
+## A connected program can utilize all CRUD operations: 
 
       GET all badge data from database (reads data), 
       
@@ -13,7 +15,7 @@ A connected program can utilize all CRUD operations:
       DELETE one badge data by ID from database (deletes data).
       
 
-How to programmatically REQUEST data from the microservice: 
+## How to programmatically REQUEST data from the microservice: 
 
   Formatting for a request all: 
   
@@ -40,7 +42,7 @@ How to programmatically REQUEST data from the microservice:
                 // this is the calorie-tracker application's call
 
     
-How to programmatically RECEIVE data from the microservice: 
+## How to programmatically RECEIVE data from the microservice: 
 
   Formatting for receiving the data:
   
@@ -58,7 +60,7 @@ How to programmatically RECEIVE data from the microservice:
                 // this is what the calorie tracker application uses to read a GET of calorie entries
 
                 
-UML sequence diagram:
+## UML sequence diagram:
 
 
 <img width="755" height="435" alt="image" src="https://github.com/user-attachments/assets/d068bd73-58c7-42fb-a9b4-0f7d4b59b6d1" />
