@@ -1,16 +1,46 @@
-# React + Vite
+# Calorie-Tracker Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application can be used to track calories eaten and burned, daily calorie totals, track meals eaten, track exercises completed, and complete fun health achievements. 
+This program is a react.js project that uses microservices for all backend activities and other helpful functionalities.
+This application was developed as a portfolio project in my software engineering course.
+All appliation code can be found in the calorie-tracker folder.
 
-Currently, two official plugins are available:
+## Microservices Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All microservices used in the Calorie-Tracker application can be found in the microservices folder.
 
-## React Compiler
+Database Service
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  This service is the main REST API backend support for my application.
+  All calorie entry data, meal data, and exercise data is populated from this service and operated on with this service.
+  More information on how my application uses this service can be found in the UML diagram in the database_service folder.
 
-## Expanding the ESLint configuration
+Search Service
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  This service utilizes a controller.mjs to allow POST requests from the main program to check the array provided for matches with the search input. Once it finds a match, it returns an array of matches back to the main program.
+  The "Find Meal" and "Find Activity" pages utilize this service to provide a search-type function to this page.
+  More information on how my application uses this service can be found in the UML diagram in the search_service folder.
+
+Badge Service
+
+  This service uses a REST API backend to retrieve badge data from a database and send that data to the main program.
+  The "Home" page and app.jsx utilizes this service to provide badges that update upon user data meeting certain requirements.
+  More information on how my application uses this service can be found in the UML diagram in the achievement_badge_service folder.
+
+Feedback Service
+
+  This service uses a REST API backend to send feedback data to a database and allows the main program to retrieve that data (only accessible with password access).
+  The "Feedback" pages utilize this service to provide an input form to submit feedback and provide previous feedback submissions to admin.
+  More information on how my applicaiton uses this service can be found in the UML diagram in the feedback_service folder.
+
+User Profile Settings Service (IN PROGRESS)
+
+This service uses a REST API backend to set user profile settings based on the log in information of the user in relation to matching data in the database.
+All pages will utilize this service to set appearances, language, and user data.
+More information on how my application uses this service will be found in the UML diagram in the user_profile_settings_service holder (COMING SOON).
+
+Sum Service
+
+  This service is a controller provided at on online URL that takes an array of numbers and sends back the sum.
+  The "Home" page, "Meal History" page, and "Exercise History" page all use this service to provide the calorie summaries.
+  As this service is provided online, there is not a folder with this service.
