@@ -41,6 +41,8 @@
 
 <img width="781" height="488" alt="UML_Search_Service" src="https://github.com/user-attachments/assets/0a1bd705-6e1a-4767-bba4-aa706779f391" />
 
+
+## Credits:
 I created this service with GitHub User nicpiccodes.
 Her profile is linked here: https://github.com/nicpiccodes 
 Our shared repository is linked here: https://github.com/nicpiccodes/Search-Service-CS361 
