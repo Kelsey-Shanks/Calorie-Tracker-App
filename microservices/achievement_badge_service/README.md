@@ -33,13 +33,13 @@ For a program to use this microservice, they must have a defined schema in a mod
                 
     const response = await fetch('/badge_service');    
     
-                // this is the calorie tracker application's call for calorie entries
+                // this is the calorie tracker application's call for GET all badge entires
                 
   Examples of requests from connected programs to microservices for GET one:
     
     const response = await fetch(`/badge_service/${badgeId}`);           
     
-                // this is the calorie-tracker application's call
+                // this is the calorie-tracker application's call for GET a badge entry
 
     
 ## How to programmatically RECEIVE data from the microservice: 
@@ -57,7 +57,7 @@ For a program to use this microservice, they must have a defined schema in a mod
   
     const badges = await response.json();                
     
-                // this is what the calorie tracker application uses to read a GET of calorie entries
+                // this is what the calorie tracker application uses to read a GET of badge entires
 
                 
 ## UML sequence diagram:
