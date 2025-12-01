@@ -1,8 +1,10 @@
-How to REQUEST data from the search microservice: 
+# Search Microservice README
+
+## How to REQUEST data from the search microservice: 
 
     Send a fetch request to '/search_service' with the query parameters type (which program structure it expects) and search (the string to find in the array) as well as send an array of JSON objects in the body for the program to search through. 
 
-Formatting to send a request to the search microservice from a program:
+## Formatting to send a request to the search microservice from a program:
 
     const response = await fetch (
 
@@ -20,7 +22,7 @@ Formatting to send a request to the search microservice from a program:
 
                      // use search in {} to indicate inputted search criteria (make lowercase to make it case-insensitive)
 
-How to RECEIVE data from the search microservice:
+## How to RECEIVE data from the search microservice:
 
     Use response.json() to get the result of the search using the microservice.
 
@@ -34,7 +36,7 @@ How to RECEIVE data from the search microservice:
   
               // tells if the search was successful
 
-UML sequence diagram:
+## UML sequence diagram:
 
 
 <img width="781" height="488" alt="UML_Search_Service" src="https://github.com/user-attachments/assets/0a1bd705-6e1a-4767-bba4-aa706779f391" />
