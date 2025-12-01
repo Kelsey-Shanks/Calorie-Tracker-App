@@ -1,6 +1,8 @@
+# Database Microservice README
+
 For a program to use this microservice, they must have a defined schema in a model.mjs for that program and they must have defined CRUD operations in the controller that accesses that model.
 
-A connected program can utilize all CRUD operations: 
+## A connected program can utilize all CRUD operations: 
 
       GET all program data from database (reads data), 
       
@@ -17,7 +19,7 @@ If query parameters are needed, the controller will need to have a conditional s
 Only Calorie Tracker application uses this functionality, so if other programs desire this, this is an addition that is accounted for in this contract.
 
 
-How to programmatically REQUEST data from the microservice: 
+## How to programmatically REQUEST data from the microservice: 
 
   Formatting for a request all: 
   
@@ -77,7 +79,7 @@ Examples of requests from connected programs to microservices for GET one:
                 // this is the calorie tracker application's call for meal/exercise data
 
     
-How to programmatically RECEIVE data from the microservice: 
+## How to programmatically RECEIVE data from the microservice: 
 
   Formatting for receiving the data:
   
@@ -111,7 +113,7 @@ How to programmatically RECEIVE data from the microservice:
                 // this is what the habits tracker application uses to read a GET of habit entries
 
     
-UML sequence diagram:
+## UML sequence diagram:
 
 
 <img width="755" height="435" alt="image" src="https://github.com/user-attachments/assets/d068bd73-58c7-42fb-a9b4-0f7d4b59b6d1" />
