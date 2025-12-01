@@ -25,7 +25,7 @@ Formatting for a request user by ID:
 
 Example of a request to a microservice for a GET by ID:
 
-    const response = await fetch(`/calorie_tracker/${id}`);
+    const response = await fetch(`/user_profiles/${id}`);
   
 
 ## How to programmatically RECEIVE data from the microservice:
@@ -46,3 +46,4 @@ Example of receiving data from the microservice for a GET by ID request:
 ## UML Diagram:
 
 <img width="755" height="435" alt="image" src="https://github.com/user-attachments/assets/d068bd73-58c7-42fb-a9b4-0f7d4b59b6d1" />
+
