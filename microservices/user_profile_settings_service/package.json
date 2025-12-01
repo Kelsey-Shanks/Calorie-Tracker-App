@@ -1,0 +1,28 @@
+{
+  "name": "user_profile_settings_microservice",
+  "version": "1.0.0",
+  "description": "For a program to use this microservice, they must have a defined schema in a model.mjs for that program and they must have defined CRUD operations in the controller that accesses that model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon controller.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelsey-Shanks/User_Profile_Settings_Microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kelsey-Shanks/User_Profile_Settings_Microservice/issues"
+  },
+  "homepage": "https://github.com/Kelsey-Shanks/User_Profile_Settings_Microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
