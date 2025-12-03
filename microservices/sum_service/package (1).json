@@ -1,0 +1,17 @@
+{
+  "name": "sum_microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum_calculation.mjs",
+  "scripts": {
+    "start": "nodemon sum_calculation.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "cors": "^2.8.5"
+  }
+}
