@@ -41,6 +41,6 @@ More information on how my application uses this service will be found in the UM
 
 Sum Service
 
-  This service is a controller provided at on online URL that takes an array of numbers and sends back the sum.
+  This service is a controller provided at on online URL that takes an array of numbers and sends back the sum. (URL WILL BE REMOVED SOON, SO LOCAL FILE SAVED FOR SERVICE)
   The "Home" page, "Meal History" page, and "Exercise History" page all use this service to provide the calorie summaries.
-  As this service is provided online, there is not a folder with this service.
+  More information on how my application uses this service will be found in the README in the sum_service folder.
