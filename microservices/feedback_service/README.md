@@ -1,5 +1,7 @@
 # Feedback Microservice README
 
+You must connect to a MongoDB Cluster by inserting an appropriate connection link string into a dotenv file (I also defined the local PORT I used as a constant in the dotenv file).
+
 ## A connected program can utilize GET all and POST one operations: 
 
       GET all feedback data from database (reads data), 
