@@ -2,6 +2,9 @@
 
 For a program to use this microservice, they must have a defined schema in a model.mjs for that program and they must have defined CRUD operations in the controller that accesses that model.
 
+Also, you must connect to a MongoDB Cluster by inserting an appropriate connection link string into a dotenv file (I also defined the local PORT I used as a constant in the dotenv file).
+
+
 ## A connected program can utilize all CRUD operations:
 
     POST one user's data into database (creates a user),
@@ -50,3 +53,4 @@ Example of receiving data from the microservice for a GET by ID request:
 
 ## Credits:
 I created this microservice on my own. 
+
